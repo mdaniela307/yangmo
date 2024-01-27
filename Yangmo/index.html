@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yarn Shop BS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=DM+Serif+Display&family=Lato:wght@300&family=Manrope:wght@300;400;500;600&family=Overpass:wght@100;200&family=PT+Serif&family=Roboto+Mono:ital,wght@1,600&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/queries.css">
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-1" href="#">yangmo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto" >
+            <li class="nav-item active">
+              <a class="nav-link text-dark" aria-current="page" href="#">Hilados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Libros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Tienda de Café</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="contactanos.html">Contáctanos</a>
+            </li>
+          </ul>
+            </div>
+          </div>
+    </nav>
+
+    <!--<div class="row g-0 h-100">
+      <div class="col1">
+        <a href="#"><img src="img/historias_index.png" href="#" class="card-img" alt="Girl showing a handmade white circle crochet project"></a>
+      </div>
+    </div>-->
+
+    <div id="indexSlides" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/historias_index.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/tienda_index.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/index_proyectos.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#indexSlides" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#indexSlides" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="hilados">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+            <div class="content mx-auto align-self-center px-4 my-4">
+              <h1>Hilados e Insumos</h1>
+              <p class="lead mb-4">Explora nuestra colección de hilados e insumos para tejer.</p>
+              <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#hiladoseinsumos" aria-controls="hiladoseinsumos">Explorar Ahora</button>
+              <div class="offcanvas offcanvas-bottom h-100" data-bs-backdrop="static" tabindex="-1" id="hiladoseinsumos" aria-labelledby="hiladoseinsumos">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="hiladoseinsumos">Hilados e Insumos</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <p>Try scrolling the rest of the page to see this option in action.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+            <div class="content mx-auto align-self-center px-4"><img src="img/index_image_slide_min_copy_2.jpg" class="img-fluid mt-4" alt="" ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="libros">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+            <div class="content mx-auto align-self-center px-4"><img src="img/index_patrones-min.jpg" class="img-fluid mt-4" alt="" ></div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+            <div class="content mx-auto align-self-center px-4 my-4">
+              <h1>Libros y Patrones</h1>
+              <p class="lead mb-4">Seleccionamos los mejores libros y patrones para que ¡pongas manos a la obra!</p>
+              <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#librospatrones" aria-controls="librospatrones">Explorar Ahora</button>
+              <div class="offcanvas offcanvas-bottom h-100" data-bs-backdrop="static" tabindex="-1" id="librospatrones" aria-labelledby="librospatrones">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="librospatrones">Libros y Patrones</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <p>Try scrolling the rest of the page to see this option in action.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--ESTAS SECCIONES PUEDEN REUTILIZARSE - FUERON PRUEBAS-->
+<!-- <section class="container">
+  <div class="row ">
+    <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+      <div class="card ">
+        <a href="#"><img src="img/index_image_slide_min_copy_2.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Hilados e Insumos</h5>
+          <p class="card-text">Piérdete en nuestra colección de hilados e insumos par tejer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6">
+      <div class="card ">
+        <a href="#"><img src="img/index_patrones-min.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body uno">
+          <h5 class="card-title">Libros y Patrones</h5>
+          <p class="card-text">Creamos una colección de libros y patrones para que ¡pongas manos a la obra!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!--<section class="container">
+  <div class="row g-0 h-100">
+  <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+    <div class="content mx-auto align-self-center px-4 my-4">
+      <h1>Hilados e Insumos</h1>
+      <p class="lead mb-4">Explora nuestra colección de hilados e insumos par tejer.</p>
+      <a class="btn btn-secondary " href="#" role="button" >Explorar Ahora</a>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+    <div class="card">
+      <img src="img/index_image_slide_min_copy_2.jpg" class="card-img-top" alt="...">
+    </div>
+    </div>
+  </div>
+</section>
+<section class="container">
+  <div class="row g-0 h-100">
+    <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+      <div class="card">
+        <img src="img/index_patrones-min.jpg" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+      <div class="content mx-auto align-self-center px-4 my-4">
+        <h1>Libros y patrones</h1>
+        <p class="lead mb-4">Creamos una colección de libros y patrones para que ¡pongas manos a la obra!</p>
+        <a class="btn btn-secondary " href="#" role="button" >Explorar Ahora</a>
+      </div>
+    </div>
+  </div>
+</section>-->
+<!--Esta es una tarjeta fuera de un container<div class="card text-bg-dark">
+    <img src="img/historias_index.png" class="card-img" alt="Image of a pile of yarn">
+    <div class="card-img-overlay">
+      <h5 class="card-title"></h5>
+      <p class="card-text"></p>
+    </div>
+  </div>-->
+        <!--<div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+          <div class="content mx-auto align-self-center px-4 my-4">
+            <h1>Historias de Verano</h1>
+            <p class="lead mb-4">Conoce la última colección de hilados seleccionados para Primavera/Verano 2023.</p>
+            <a class="btn btn-secondary " href="#" role="button" >Explorar Ahora</a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+          <div class="content mx-auto align-self-center px-4"><img src="img/index_image_slide_min_copy_2.jpg" class="img-fluid mt-4" alt="" ></div>
+        </div>
+      </div>
+      <div class="row g-0 h-100">
+          <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+            <div class="content mx-auto align-self-center px-4"><img src="img/index_patrones-min.jpg" class="img-fluid mt-4" alt="" ></div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+            <div class="content mx-auto align-self-center px-4 my-4">
+              <h1>Libros y patrones</h1>
+              <p class="lead mb-4">Creamos una colección de libros y patrones para que ¡pongas manos a la obra!</p>
+              <a class="btn btn-secondary " href="#" role="button" >Ir a Libros y patrones</a>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0 h-100">
+          <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+            <div class="content mx-auto align-self-center px-4 my-4">
+              <h1>Coffee Shop</h1>
+              <p class="lead mb-4">En nuestro Coffee Shop podrás tejer, aprender y hacer nuevos teje-amigos.</p>
+              <a class="btn btn-secondary " href="#" role="button" >Conoce más</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-6 d-flex">
+            <div class="content mx-auto align-self-center px-4"><img src="img/index_girl_coffee-min.jpg" class="img-fluid mt-4" alt="" ></div>
+          </div>
+        </div>
+      </section>-->
+      <!--<section class="container">
+      <div class="row ">
+        <div class="col-sm-4 col-md-4 col-lg-4 d-flex">
+          <div class="card ">
+            <img src="img/index_image_slide_min_copy_2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hilados e Insumos</h5>
+              <p class="card-text">Piérdete en nuestra colección de hilados e insumos par tejer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="card ">
+            <img src="img/index_patrones-min.jpg" class="card-img-top" alt="...">
+            <div class="card-body uno">
+              <h5 class="card-title">Libros y Patrones</h5>
+              <p class="card-text">Creamos una colección de libros y patrones para que ¡pongas manos a la obra!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="card ">
+            <img src="img/index_girl_coffee-min.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tienda de Café</h5>
+              <p class="card-text">En nuestra Tienda de café podrás tejer, aprender y hacer nuevos teje-amigos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <!--FIN DE LAS PRUEBAS-->
+    <!-- <div class="tienda">
+      <div class="row g-0 h-100">
+        <div class="col2">
+          <a href="#"><img src="img/tienda_index.png" href="#" class="card-img" alt="Image of a pile of yarn"></a>
+        </div>
+      </div>
+    </div>
+    <section class="tarjetas">
+      <div class="container">-->
+
+        
+          <!--<div class="col-sm-6 col-md-4 col-lg-4 d-flex">
+            <div class="card">
+              <img src="img/eventos_index.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Calendario de Eventos</h5>
+                <p class="card-text">Talleres, charlas, discusiones y lecturas. Hay una actividad pensada para ayudarte a expandir tus conocimientos tejeriles.</p>
+              </div>
+            </div>
+          </div>-->
+          <!--<div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="card">
+              <img src="img/comunidad_index.png" class="card-img-top" alt="...">
+              <div class="card-body uno">
+                <h5 class="card-title">Nuestra comunidad</h5>
+                <p class="card-text">No es por nada pero ¡tenemos la mejor comunidad creativa de todo París! y te estamos esperando.</p>
+              </div>
+            </div>
+          </div>-->
+          <div class="row row-gap-5">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card text-bg-dark">
+              <img src="img/eventos_index.png" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title text-center">Eventos</h5><p class="card-text text-center"></p>
+                <p class="card-text"><small></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card text-bg-dark">
+            <img src="img/comunidad_index.png" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title text-center">Comunidad</h5>
+              <p class="card-text"></p>
+              <p class="card-text"><small></small></p>
+            </div>
+          </div>
+        </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card text-bg-dark">
+              <img src="img/superpoder_index.png" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title text-center">Programas</h5>
+                <p class="card-text"></p>
+                <p class="card-text"><small></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section class="footer">
+    <div class="card text-center ">
+      <div class="card-header">
+        yangmo
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Inspira, crea y transforma tus ideas.</h5>
+        <p class="card-text">Suscríbete a nuestro boletín y gana un voucher de descuento en tu próxima compra.</p>
+        <a href="#" class="btn btn-secondary">Suscribirme</a>
+      </div>
+      <div class="card-footer text-muted">
+        ©2023 Webpage built using HTML5, CSS3 & Bootstrap5 by Daniela E. Millán
+      </div>
+    </div>
+  </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+  </html>

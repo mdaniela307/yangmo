@@ -1,0 +1,103 @@
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.navbar{
+    min-height: 50px;
+    background-color: #e1e4d5;
+}
+.navbar-brand{
+   font-family: 'PT Serif', serif;
+   justify-self: stretch;
+}
+.navbar-nav{
+    font-family: 'Rubik', sans-serif;
+}
+.nav-link{
+    font-size: large;
+}
+/*.col1{
+    padding-top: 4rem;
+}*/
+.hilados{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #fdfcf5;
+}
+.libros{
+    padding-top: 0px;
+    padding-bottom: 3rem;
+    gap: 0px;
+}
+.tienda{
+    margin-bottom: 3rem;
+    background-color: #fdfcf5;
+}
+
+
+.content{
+    max-width: 450px;
+}
+
+.img{
+    max-height: 300px;
+}
+#cta{
+    height: 600px;
+}
+
+.card {
+    border-style: none;
+}
+
+.card-header{
+    font-family: 'PT Serif', serif;
+    font-size: 32px;
+    font-weight: bold;
+    min-height: 50px;
+    border-style: none;
+    background-color: #e1e4d5;
+}
+.card-body{
+    background-color: #e1e4d5;
+    
+}
+.tarjetas{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.footer{
+    margin-top: 3rem;
+    
+}
+.card-footer{
+    border-style: none;
+    background-color: #fdfcf5;
+}
+.btn{
+    background-color: #586249;
+}
+.submit{
+    background-color: #586249;
+}
+.card-img{
+    border-radius: 0%;
+     
+}
+
+.card-img-overlay > .card-title{
+    
+    font-size: 2.5rem;
+    background: rgba(253, 252, 245, .4);
+    margin-top: 130px;
+    color: #586249;
+    
+    
+}
+.formulario{
+    margin: 8rem 3rem 8rem 3rem /*Top Right Bottom Left (TRouBLe)*/
+}
+
+.form-floating{
+    margin-bottom: 2rem;
+}
